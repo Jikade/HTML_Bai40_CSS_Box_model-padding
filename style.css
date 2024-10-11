@@ -1,0 +1,30 @@
+div {
+  width: 100px;
+  height: 100px;
+  color: yellow;
+  background-color: red;
+
+  /* Trên - Dưới - Trái - Phải đều 20px */
+  padding: 20px;
+
+  /* Dưới */
+  padding-bottom: 30px;
+
+  /* Trên */
+  padding-top: 30px;
+
+  /* Trái */
+  padding-left: 30px;
+
+  /* Phải */
+  padding-right: 30px;
+
+  /* Trên Dưới - Trái Phải */
+  padding: 20px 30px;
+
+  /* Trên - Trái Phải - Dưới */
+  padding: 20px 30px 40px;
+
+  /* Trên - Phải - Dưới - Trái */
+  padding: 20px 30px 40px 50px;
+}
